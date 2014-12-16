@@ -143,7 +143,7 @@ ngx_http_google_response_header_set_cookie_pref(ngx_http_request_t    * r,
   if (!kv) return NGX_ERROR;
   
   ngx_str_set(&kv->key,   "LD");
-  ngx_str_set(&kv->value, "zh-CN");
+  ngx_str_set(&kv->value, "en-US");
   
   kv = ngx_array_push(nkvs);
   if (!kv) return NGX_ERROR;
